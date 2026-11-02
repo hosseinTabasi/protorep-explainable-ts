@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protorep"
+version = "0.1.0"
+description = "Prototype-bottleneck explainable representations for industrial multivariate time series"
+authors = [{name = "Hossein Tabasi"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["torch", "numpy", "pandas", "scikit-learn", "matplotlib", "pyyaml"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
