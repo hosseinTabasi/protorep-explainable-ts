@@ -1,0 +1,7 @@
+method,nmi_mean,nmi_std,ari_mean,ari_std
+k-means(22) on PCA-20,0.5301,0.0028,0.0843,0.0038
+"ProtoRep nearest prototype (ours, K=22)",0.4615,0.0061,0.1397,0.022
+k-means(22) on Conv-AE latent,0.458,0.0154,0.0695,0.003
+k-means(22) on TS2Vec-lite,0.4059,0.0235,0.0712,0.0102
+k-means(22) on ProtoRep embedding (ours),0.3773,0.0331,0.0993,0.0099
+k-means(22) on Raw window,0.3678,0.0032,0.0975,0.0054
