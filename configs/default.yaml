@@ -1,0 +1,7 @@
+# ProtoRep: a few intuitive knobs.
+n_prototypes: 16     # how many "normal behaviours" to learn (each becomes a real sensor snippet)
+window: 32           # samples per window (SKAB: 32 s); TEP uses window_tep
+window_tep: 10       # TEP: 10 x 3 min = 30 min
+epochs: 12           # CPU-friendly
+sensor_sparsity: 0.01  # L1 on sensor gates; larger = fewer sensors used per explanation
+seeds: [0, 1, 2]
